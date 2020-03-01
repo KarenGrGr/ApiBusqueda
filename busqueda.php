@@ -14,12 +14,6 @@ $Headers = ['Accept' =>  'application/json'];
 $baseServiceURL = ['base_uri' => 'https://api.punkapi.com','verify' => false]; 
 $client = new GuzzleHttp\Client($baseServiceURL,array("request.options" => array( "headers" => $Headers )));
 
-//funcion para enviar las cabeceras y el JSON con un array vacío
-function devolverArrayVacio(){
-    header('Content-type: application/json; charset=utf-8' );
-    header("HTTP/1.1 200 OK");
-    echo json_encode(array());
-}
 
 if ($_SERVER['REQUEST_METHOD'] == 'GET')
 {
