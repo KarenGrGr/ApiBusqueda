@@ -10,7 +10,7 @@ http://localhost/ApiBusqueda/busqueda/chips
 EL otro servicio devuelve id(id), nombre(name), descripción(description) y detalles(details);
 details es un array que contiene los datos de imagen(image_url), slogan (tagline) y cuando fue fabricada la cerveza(first_brewed).
 La forma de acceder a este es, si por ejemplo, la cadena de búsqueda es 'chips':
-http://localhost/ApiBusqueda/busquedadDetallada/chips
+http://localhost/ApiBusqueda/busquedaDetallada/chips
 
 El formato de salida de los datos es JSON.
 Si la búsqueda no encuentra nada devolverá un array vacío.
